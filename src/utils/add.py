@@ -1,10 +1,10 @@
-def add(list_id, new_student, student_lists):
+def add(list_id : int, new_student : str, student_lists : list[list]) -> list[list]:
     """
     Adds a new student to the specified list.
     
     Parameters:
     -----
-    list_id (str): The ID of the list to which the student will be added.
+    list_id (int): The ID of the list to which the student will be added.
     new_student (str): A string containing the student's name and surname.
     student_lists (list[list]): A list containing all student lists.
     
