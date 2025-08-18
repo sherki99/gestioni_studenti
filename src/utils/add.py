@@ -19,5 +19,5 @@ def add(list_id : int, new_student : str, student_lists : list[list]) -> list[li
     [['Alice', 'Bob', 'David'], ['Charlie']]
     """
     
-    student_lists[list_id].append(new_student)
+    student_lists[list_id].append(new_student.lower())
     return student_lists
