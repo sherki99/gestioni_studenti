@@ -2,6 +2,20 @@ class StudentManager:
     def __init__(self):
         self.students = []
 
+    def add_list(self):
+        """
+        Adds a new student list to the manager.
+        
+        Parameters
+        ----------
+        None
+        
+        Returns
+        -------
+        None
+        """
+        self.students.append([])
+
     def add(self, list_id : int, new_student : str) -> None:
         """
         Adds a new student to the specified list.
